@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1a1a4c;
+    color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+}
+
+h1, h2 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #1a1a4c;
+}
+p {
+    text-align: center;
+}
+
+.container_proyects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.container_proyects_ind {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 92%;
+    padding-bottom: 15px;
+    border-radius: 5%;
+}
+
+.container_proyects, p, h3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.titulos_proyects {
+    margin: 5px;
+
+}
+.descrpcion_proyects {
+    margin: 5px;
+}
+
+.skills ul, .experience ul, .education ul, .projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li, .experience li, .education li, .projects li {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.projects img {
+    width: 250px;
+    height: 350px;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+.contact p {
+    margin: 5px 0;
+}
