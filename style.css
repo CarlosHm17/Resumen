@@ -35,6 +35,9 @@ h2 {
 p {
     text-align: center;
 }
+li {
+    text-align: center;
+}
 
 .container_proyects {
     display: flex;
@@ -54,6 +57,9 @@ p {
     width: 92%;
     padding-bottom: 15px;
     border-radius: 5%;
+}
+img {
+    border: 1px solid #000;
 }
 
 .container_proyects, p, h3 {
