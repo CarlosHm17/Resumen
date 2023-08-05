@@ -1,0 +1,31 @@
+.container_proyects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.container_proyects_ind {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 25%;
+    padding-bottom: 15px;
+    border-radius: 5%;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.projects img {
+    width: 250px;
+    height: 350px;
+}
